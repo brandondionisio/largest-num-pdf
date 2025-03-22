@@ -19,6 +19,6 @@ It will print out the largest number found in the document, like so: ``` Largest
 
 ## ❗Limitations
 
- - Does not parse numbers from tables or images in the PDF
+ - Does not apply scalable keywords from tables in the PDF
  - May miss some edge cases in unusual numeric formats
  - Unable to identify scalable keywords beyond "trillion" or "trillions" (e.g., "quintillion" will not be found)
